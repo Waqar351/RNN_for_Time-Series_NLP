@@ -1,5 +1,3 @@
-Here’s an updated **README.md** file that aligns with your `pyproject.toml` and highlights the dependencies installed via Poetry:
-
 ---
 
 # Recurrent Neural Networks Project
