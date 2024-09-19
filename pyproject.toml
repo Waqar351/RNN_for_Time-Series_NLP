@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "RNN_Lecture"
+version = "0.1.0"
+description = "Detailed lecture on Recurrent Neural Networks (RNN, LSTM and GRU)."
+authors = ["Waqar Hassan <waqar_comsat@yahoo.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12.2"
+numpy = "<2"
+pandas = "^2.2.2"
+torch = {url = "https://download.pytorch.org/whl/cu121/torch-2.3.0%2Bcu121-cp312-cp312-win_amd64.whl"}
+torchvision = {url = "https://download.pytorch.org/whl/cu121/torchvision-0.18.0%2Bcu121-cp312-cp312-win_amd64.whl"}
+torchaudio = {url = "https://download.pytorch.org/whl/cu121/torchaudio-2.3.0%2Bcu121-cp312-cp312-win_amd64.whl"}
+torch-scatter = {path = "E:/Dysat_model/dependencies/torch_scatter-2.1.2+pt23cu121-cp312-cp312-win_amd64.whl"}
+torch-cluster = {path = "E:/Dysat_model/dependencies/torch_cluster-1.6.3+pt23cu121-cp312-cp312-win_amd64.whl"}
+
+matplotlib = "^3.7.0"
+seaborn = "^0.12.0"
+nltk = "^3.8.0"
+scikit-learn = "^1.2.0"
+notebook = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
